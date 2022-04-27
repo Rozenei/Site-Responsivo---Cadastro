@@ -37,7 +37,6 @@ header #logo {
 }
 .menu {
     flex: 1;
-
 }
 .menu ul {
     display: flex;
