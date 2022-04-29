@@ -130,13 +130,19 @@ header #logo {
 }
 
 footer {
-    background-color: rgb(187, 177, 177);
+    background-color: rgba(171, 174, 177, 0.324);
     color: #6c757d;
     font-size: .8em;
+}
+footer a {
+   text-decoration: none;
+   color: #64829b;
+   padding: 10px;
 }
 
 footer p {
     line-height: 35px;
+     color: #6c757d;
 }
 
 footer .container {
