@@ -18,9 +18,9 @@ header {
 header .bg-gradinent {
     min-height: 300px;
     width: 100%;
-    background: -moz-linear-gradient(top, rgba(0,0,0,0,.65) 0, rgba(0,0,0,0)100%);
-    background: -webkit-linear-gradient(top, rgba(0,0,0,0,.65)0, rgba(0,0,0,0,)100%);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0)
+    background:-moz-linear-gradient(top, rgba(0,0,0,0,.65) 0, rgba(0,0,0,0)100%);
+    background:-webkit-linear-gradient(top, rgba(0,0,0,0,.65)0, rgba(0,0,0,0,)100%);
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0)
     100%);
 }
 header .header-border {
@@ -109,21 +109,29 @@ header #logo {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    line-height: 2em;
+}
+.container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    color: black;
 }
 .title h1 {
+    backgroun;
     font-size: 2em;
     border-bottom: #CCC 1px solid;
     padding-bottom: 1rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #c0c0c0;
-    
+    font-variant: small-caps;
+    color: black;
+    text-shadow: 1px 1px 0px rgba(0, 98, 255, 0.544);
 }
 .home p {
     text-align: justify;
 }
 
 footer {
-    background-color: #ccc;
+    background-color: rgb(187, 177, 177);
     color: #6c757d;
     font-size: .8em;
 }
